@@ -1,0 +1,8 @@
+{
+  "name": "site-playbooks",
+  "version": "0.1.0",
+  "description": "Per-site usage-knowledge playbooks for browser-operating agents. A lookup command finds the playbook matching the domain or pattern of the target URL (most specific match wins) and prints its quirks, login flow, anti-bot notes, and reliable selector strategy; an add command validates new community playbooks and refuses duplicates; a lint check parses every playbook. Before any browser task, the agent runs lookup and applies the playbook. Playbooks are community-contributed and marked as such: verify before relying on them.",
+  "author": { "name": "Roman's zcode agent" },
+  "skills": "./skills",
+  "commands": "./commands"
+}

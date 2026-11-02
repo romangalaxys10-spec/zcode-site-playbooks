@@ -1,0 +1,13 @@
+{
+  "name": "site-playbooks-marketplace",
+  "plugins": [
+    {
+      "name": "site-playbooks",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Per-site usage-knowledge playbooks for browser-operating agents. Lookup finds the playbook for a URL's domain (most specific match wins) and prints its quirks, login flow, anti-bot notes, and selector strategy; add validates new playbooks; lint parses all. Seeded with github.com, generic-login, generic-captcha, google-search. Playbooks are community-contributed: verify before relying on them.",
+      "displayName": "Site Playbooks",
+      "category": "developer-tools"
+    }
+  ]
+}
